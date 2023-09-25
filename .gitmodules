@@ -1,0 +1,3 @@
+[submodule "Library/KiCad-RP-Pico"]
+	path = Library/KiCad-RP-Pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico.git
