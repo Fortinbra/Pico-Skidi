@@ -7,4 +7,5 @@
   (lib (name "MCP73831")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_MCP73831T-2ACI-OT/KiCADv6/2023-09-24_00-29-53.kicad_sym")(options "")(descr ""))
   (lib (name "DMP2075UFDB")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_DMP2075UFDB-7/KiCADv6/2023-09-24_00-34-10.kicad_sym")(options "")(descr ""))
   (lib (name "74LVC1G17GW")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_74LVC1G17GW-125/KiCADv6/2023-09-24_00-40-00.kicad_sym")(options "")(descr ""))
+  (lib (name "ExtraPower")(type "KiCad")(uri "${KIPRJMOD}/Library/ExtraPower.kicad_sym")(options "")(descr ""))
 )
