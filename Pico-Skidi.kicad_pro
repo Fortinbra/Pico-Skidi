@@ -326,6 +326,26 @@
     [
       "21865b85-eb74-4d61-a31a-30858d3bc341",
       ""
+    ],
+    [
+      "8900a908-b882-43c5-abd2-34b7e0cc181b",
+      "Power Management"
+    ],
+    [
+      "bbc489db-46a3-4246-b410-83dab5c86885",
+      "Motor Management"
+    ],
+    [
+      "60530e3c-b075-4fd7-83a5-48bc65381cc4",
+      "Pico W"
+    ],
+    [
+      "c8bff29c-fa48-4bd5-9235-77063b7ae161",
+      "Servos"
+    ],
+    [
+      "a918f8c6-b50a-4fb5-8fe4-4f099461944c",
+      "Extras"
     ]
   ],
   "text_variables": {}
