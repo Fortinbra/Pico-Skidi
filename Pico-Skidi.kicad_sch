@@ -1624,6 +1624,10 @@
     (uuid fb453759-e12b-4344-8d7b-be09e3ee8a41)
   )
 
+  (label "PROG" (at 87.63 21.59 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 0238905c-da5b-42bb-83b6-5fdbd043f480)
+  )
   (label "D+" (at 41.91 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 427f695d-f0fd-41cc-a4e0-da7477d14d37)
@@ -1817,6 +1821,32 @@
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341"
           (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 71.12 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 31375fdd-390c-449f-8044-72975496ebad)
+    (property "Reference" "R5" (at 73.66 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R" (at 73.66 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 69.342 66.04 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.12 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4471eef9-67ed-4b26-beea-49e4648468c6))
+    (pin "2" (uuid 035a9093-b9d0-41bd-9bb0-b5c503f09731))
+    (instances
+      (project "Pico-Skidi"
+        (path "/21865b85-eb74-4d61-a31a-30858d3bc341"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2158,6 +2188,32 @@
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 60.96 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8ac24205-5d94-4cba-8b82-0dd6d7c32065)
+    (property "Reference" "R4" (at 63.5 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R" (at 63.5 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 59.182 66.04 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b87d65e3-caa3-4076-a1f7-014fbd06fb8e))
+    (pin "2" (uuid cb7c84f8-029c-4746-a40b-f55596f4f8fe))
+    (instances
+      (project "Pico-Skidi"
+        (path "/21865b85-eb74-4d61-a31a-30858d3bc341"
+          (reference "R4") (unit 1)
         )
       )
     )
