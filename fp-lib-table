@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Library/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "ESP32-WROOM-32E")(type "KiCad")(uri "${KIPRJMOD}/Library/ESP32_WROOM_32E_N8/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "pico-skidi")(type "KiCad")(uri "${KIPRJMOD}/Library/pico-skidi.pretty")(options "")(descr ""))
+)

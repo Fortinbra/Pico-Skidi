@@ -8,4 +8,6 @@
   (lib (name "DMP2075UFDB")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_DMP2075UFDB-7/KiCADv6/2023-09-24_00-34-10.kicad_sym")(options "")(descr ""))
   (lib (name "74LVC1G17GW")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_74LVC1G17GW-125/KiCADv6/2023-09-24_00-40-00.kicad_sym")(options "")(descr ""))
   (lib (name "ExtraPower")(type "KiCad")(uri "${KIPRJMOD}/Library/ExtraPower.kicad_sym")(options "")(descr ""))
+  (lib (name "Pico-Skidi")(type "KiCad")(uri "${KIPRJMOD}/Library/Pico-Skidi.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-WROOM-32E")(type "KiCad")(uri "${KIPRJMOD}/Library/ESP32_WROOM_32E_N8/KiCADv6/2023-10-23_05-15-10.kicad_sym")(options "")(descr ""))
 )
