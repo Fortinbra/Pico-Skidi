@@ -3,4 +3,8 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Library/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "ESP32-WROOM-32E")(type "KiCad")(uri "${KIPRJMOD}/Library/ESP32_WROOM_32E_N8/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "pico-skidi")(type "KiCad")(uri "${KIPRJMOD}/Library/pico-skidi.pretty")(options "")(descr ""))
+  (lib (name "BQ29700DSER")(type "KiCad")(uri "${KIPRJMOD}/Library/BQ29700DSER/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MCP73831")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_MCP73831T-2ACI-OT/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "DRV8411")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_PDRV8411PWPR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PKLCS1212")(type "KiCad")(uri "${KIPRJMOD}/Library/PKLCS1212E4001_R1/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

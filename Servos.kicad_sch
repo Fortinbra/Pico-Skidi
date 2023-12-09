@@ -326,7 +326,7 @@
   (symbol (lib_id "power:+5V") (at 101.6 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16c8fc6b-5ce4-46d4-acae-0763f7285b9c)
-    (property "Reference" "#PWR033" (at 101.6 59.69 0)
+    (property "Reference" "#PWR042" (at 101.6 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 101.6 50.8 0)
@@ -342,7 +342,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -357,7 +357,7 @@
     (property "Value" "Motor_Servo" (at 144.78 124.0266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.89 128.016 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 135.89 128.016 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png" (at 135.89 128.016 0)
@@ -372,7 +372,7 @@
           (reference "M4") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "M10") (unit 1)
+          (reference "M6") (unit 1)
         )
       )
     )
@@ -387,7 +387,7 @@
     (property "Value" "Motor_Servo" (at 144.78 91.0066 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.89 94.996 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 135.89 94.996 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png" (at 135.89 94.996 0)
@@ -402,7 +402,7 @@
           (reference "M4") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "M8") (unit 1)
+          (reference "M4") (unit 1)
         )
       )
     )
@@ -432,7 +432,7 @@
           (reference "M4") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "M6") (unit 1)
+          (reference "M2") (unit 1)
         )
       )
     )
@@ -460,7 +460,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -488,7 +488,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -503,7 +503,7 @@
     (property "Value" "Motor_Servo" (at 144.78 74.4966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.89 78.486 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 135.89 78.486 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png" (at 135.89 78.486 0)
@@ -518,7 +518,7 @@
           (reference "M5") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "M7") (unit 1)
+          (reference "M3") (unit 1)
         )
       )
     )
@@ -546,7 +546,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -574,7 +574,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -589,7 +589,7 @@
     (property "Value" "Motor_Servo" (at 143.51 137.9966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 134.62 141.986 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 134.62 141.986 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png" (at 134.62 141.986 0)
@@ -604,7 +604,7 @@
           (reference "M5") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "M5") (unit 1)
+          (reference "M1") (unit 1)
         )
       )
     )
@@ -632,7 +632,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -660,7 +660,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -675,7 +675,7 @@
     (property "Value" "Motor_Servo" (at 144.78 107.5166 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.89 111.506 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 135.89 111.506 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png" (at 135.89 111.506 0)
@@ -690,7 +690,7 @@
           (reference "M5") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "M9") (unit 1)
+          (reference "M5") (unit 1)
         )
       )
     )
