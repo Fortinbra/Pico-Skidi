@@ -326,7 +326,7 @@
   (symbol (lib_id "power:+5V") (at 101.6 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16c8fc6b-5ce4-46d4-acae-0763f7285b9c)
-    (property "Reference" "#PWR042" (at 101.6 59.69 0)
+    (property "Reference" "#PWR028" (at 101.6 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 101.6 50.8 0)
@@ -342,7 +342,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -460,7 +460,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -488,7 +488,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -546,7 +546,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -574,7 +574,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -632,7 +632,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -660,7 +660,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/c8bff29c-fa48-4bd5-9235-77063b7ae161"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )

@@ -517,13 +517,15 @@
   (junction (at 111.76 97.79) (diameter 0) (color 0 0 0 0)
     (uuid d025a330-90d7-4132-a771-4674eb997f59)
   )
+  (junction (at 171.45 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid f96fcbc9-6ee5-48c3-90ab-926d52f02571)
+  )
   (junction (at 111.76 110.49) (diameter 0) (color 0 0 0 0)
     (uuid fbbd83c4-cc0b-440e-b21d-6c9cd8ae4963)
   )
 
   (no_connect (at 144.78 120.65) (uuid 2bdd656c-1c0c-405c-bb83-9c1c493c558c))
   (no_connect (at 139.7 62.23) (uuid 2d67e242-1e27-4ee2-be07-51984f224cb7))
-  (no_connect (at 140.97 95.25) (uuid 31359fec-08d0-494d-831f-29d70117904b))
   (no_connect (at 160.02 80.01) (uuid 36528df0-c581-4bde-8b05-45b46264c27d))
   (no_connect (at 160.02 95.25) (uuid 3f098cb5-46d8-4efc-bb62-9fd015ac8c51))
   (no_connect (at 142.24 62.23) (uuid 53bc7b8f-a2a1-491b-94ef-d93398ab966b))
@@ -584,6 +586,10 @@
   (wire (pts (xy 111.76 85.09) (xy 124.46 85.09))
     (stroke (width 0) (type default))
     (uuid 6871c071-8300-47d7-8b03-0675db7e8c27)
+  )
+  (wire (pts (xy 171.45 69.85) (xy 172.72 69.85))
+    (stroke (width 0) (type default))
+    (uuid 74cc7162-1b06-40a6-b65c-2d45b9155fc7)
   )
   (wire (pts (xy 168.91 110.49) (xy 160.02 110.49))
     (stroke (width 0) (type default))
@@ -691,6 +697,10 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 555e80d7-3786-421f-8012-5fd4547da483)
   )
+  (hierarchical_label "VSYS" (shape input) (at 172.72 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 55e0acbd-403d-4226-b5a1-f0c362042c57)
+  )
   (hierarchical_label "nFAULT_02" (shape input) (at 124.46 102.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 56d3d5bd-e629-48a7-ae8c-6e44be3274c1)
@@ -739,7 +749,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 200.66 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03d6bafd-fdfd-4ebe-8e1c-d7dda8f17fdc)
-    (property "Reference" "J8" (at 203.2 68.58 0)
+    (property "Reference" "J6" (at 203.2 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 203.2 71.12 0)
@@ -758,7 +768,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "J8") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -767,7 +777,7 @@
   (symbol (lib_id "power:+3.3V") (at 187.96 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b0117e7-ad90-45ec-8ef0-0ac6f2c374d9)
-    (property "Reference" "#PWR040" (at 187.96 72.39 0)
+    (property "Reference" "#PWR026" (at 187.96 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 187.96 63.5 0)
@@ -783,7 +793,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -792,7 +802,7 @@
   (symbol (lib_id "power:VBUS") (at 165.1 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d487987-3610-43cc-b29e-68c713367cd1)
-    (property "Reference" "#PWR036" (at 165.1 71.12 0)
+    (property "Reference" "#PWR022" (at 165.1 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 165.1 62.23 0)
@@ -808,7 +818,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -817,7 +827,7 @@
   (symbol (lib_id "ExtraPower:VSYS") (at 171.45 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b348ea2-b1c3-4a6b-abf5-e4b62e4bd6cb)
-    (property "Reference" "#PWR05" (at 171.45 73.66 0)
+    (property "Reference" "#PWR025" (at 171.45 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSYS" (at 171.45 64.77 0)
@@ -833,7 +843,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -842,7 +852,7 @@
   (symbol (lib_id "power:+3.3V") (at 166.37 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b80ad83-d080-483a-a717-c131e8580acd)
-    (property "Reference" "#PWR037" (at 166.37 82.55 0)
+    (property "Reference" "#PWR023" (at 166.37 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 166.37 73.66 0)
@@ -858,7 +868,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -943,7 +953,7 @@
   (symbol (lib_id "power:GND") (at 193.04 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cb65b39-8eb5-4b01-8ed5-752f7230b0da)
-    (property "Reference" "#PWR041" (at 193.04 68.58 0)
+    (property "Reference" "#PWR027" (at 193.04 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 67.31 0)
@@ -959,7 +969,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -987,7 +997,7 @@
           (reference "#PWR010") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1015,7 +1025,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/60530e3c-b075-4fd7-83a5-48bc65381cc4"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )

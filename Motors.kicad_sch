@@ -568,7 +568,7 @@
   (symbol (lib_id "power:GND") (at 50.8 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0829490e-7e9b-42ca-8836-c836f61a9c79)
-    (property "Reference" "#PWR022" (at 50.8 137.16 0)
+    (property "Reference" "#PWR09" (at 50.8 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 135.89 0)
@@ -584,7 +584,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -593,7 +593,7 @@
   (symbol (lib_id "power:GND") (at 41.91 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b1b3957-576d-483f-bd67-1b1f54e06366)
-    (property "Reference" "#PWR020" (at 41.91 135.89 0)
+    (property "Reference" "#PWR07" (at 41.91 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 134.62 0)
@@ -609,7 +609,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -618,7 +618,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 140.97 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ede8883-986e-4fe8-83f9-29da37e4540f)
-    (property "Reference" "J3" (at 143.51 100.33 0)
+    (property "Reference" "J2" (at 143.51 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Motor 3" (at 143.51 102.87 0)
@@ -635,7 +635,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -663,7 +663,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -672,7 +672,7 @@
   (symbol (lib_id "Device:C") (at 71.12 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26bb1cd7-9bfe-4e75-a9cc-833154a57c50)
-    (property "Reference" "C6" (at 74.93 135.89 0)
+    (property "Reference" "C3" (at 74.93 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 74.93 138.43 0)
@@ -689,7 +689,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -698,7 +698,7 @@
   (symbol (lib_id "Device:R") (at 48.26 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3325a1d3-de76-467c-b6f9-5c667ab2b969)
-    (property "Reference" "R10" (at 50.8 64.77 0)
+    (property "Reference" "R2" (at 50.8 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 50.8 67.31 0)
@@ -715,7 +715,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "R10") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -724,7 +724,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 146.05 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3585a6a7-124e-431d-8c7d-0eb6d5e59de7)
-    (property "Reference" "J6" (at 148.59 52.07 0)
+    (property "Reference" "J5" (at 148.59 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Motor 2" (at 148.59 54.61 0)
@@ -741,7 +741,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -750,7 +750,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 140.97 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40bc6132-5797-4ead-aa35-a57f4c609e41)
-    (property "Reference" "J4" (at 143.51 110.49 0)
+    (property "Reference" "J3" (at 143.51 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Motor 4" (at 143.51 113.03 0)
@@ -767,7 +767,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -776,7 +776,7 @@
   (symbol (lib_id "power:+5V") (at 62.23 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fae4747-dd0a-4399-bcfd-a54be02c7428)
-    (property "Reference" "#PWR026" (at 62.23 77.47 0)
+    (property "Reference" "#PWR013" (at 62.23 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 62.23 68.58 0)
@@ -792,7 +792,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -820,7 +820,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -873,7 +873,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 146.05 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ada30f8-7702-4240-8586-72fcb54dae9d)
-    (property "Reference" "J5" (at 148.59 43.18 0)
+    (property "Reference" "J4" (at 148.59 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Motor 1" (at 148.59 45.72 0)
@@ -890,7 +890,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -899,7 +899,7 @@
   (symbol (lib_id "Device:R") (at 55.88 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60a24bed-d40e-4558-a771-e86dd0a4b92e)
-    (property "Reference" "R12" (at 58.42 67.31 0)
+    (property "Reference" "R4" (at 58.42 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 58.42 69.85 0)
@@ -916,7 +916,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "R12") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -925,7 +925,7 @@
   (symbol (lib_id "power:GND") (at 66.04 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62996fd5-f944-4ee1-9bae-4997ac0d3106)
-    (property "Reference" "#PWR028" (at 66.04 132.08 0)
+    (property "Reference" "#PWR015" (at 66.04 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 130.81 0)
@@ -941,7 +941,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -950,7 +950,7 @@
   (symbol (lib_id "power:GND") (at 48.26 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66bf6314-d953-41cf-bb65-5f44a5f94efa)
-    (property "Reference" "#PWR021" (at 48.26 76.2 0)
+    (property "Reference" "#PWR08" (at 48.26 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 74.93 0)
@@ -966,7 +966,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -975,7 +975,7 @@
   (symbol (lib_id "power:GND") (at 67.31 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c4c0de4-d201-4af0-9524-17ac79e9bc63)
-    (property "Reference" "#PWR029" (at 67.31 73.66 0)
+    (property "Reference" "#PWR016" (at 67.31 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 72.39 0)
@@ -991,7 +991,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1000,7 +1000,7 @@
   (symbol (lib_id "power:GND") (at 71.12 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cfb5840-ccbc-468c-bdc0-1d4fce411465)
-    (property "Reference" "#PWR030" (at 71.12 147.32 0)
+    (property "Reference" "#PWR017" (at 71.12 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 146.05 0)
@@ -1016,7 +1016,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1025,7 +1025,7 @@
   (symbol (lib_id "power:+5V") (at 60.96 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f8180d0-ffa5-4c17-aff5-dcaa6d16e072)
-    (property "Reference" "#PWR024" (at 60.96 135.89 0)
+    (property "Reference" "#PWR011" (at 60.96 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 60.96 127 0)
@@ -1041,7 +1041,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1050,7 +1050,7 @@
   (symbol (lib_id "Device:C") (at 62.23 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 767a4a77-86ec-4f03-958f-3e594b986e5c)
-    (property "Reference" "C5" (at 66.04 77.47 0)
+    (property "Reference" "C2" (at 66.04 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 66.04 80.01 0)
@@ -1067,7 +1067,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1076,7 +1076,7 @@
   (symbol (lib_id "Device:R") (at 41.91 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77996d26-ac39-413a-9a92-f1ade8780873)
-    (property "Reference" "R9" (at 44.45 124.46 0)
+    (property "Reference" "R1" (at 44.45 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 44.45 127 0)
@@ -1093,7 +1093,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "R9") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1102,7 +1102,7 @@
   (symbol (lib_id "power:GND") (at 60.96 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bb59673-79ee-49c9-b248-f9b7f177b9a7)
-    (property "Reference" "#PWR025" (at 60.96 147.32 0)
+    (property "Reference" "#PWR012" (at 60.96 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 146.05 0)
@@ -1118,7 +1118,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1127,7 +1127,7 @@
   (symbol (lib_id "Device:C") (at 72.39 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83a4a6bd-d2fc-41e3-97c4-a008147e8c8e)
-    (property "Reference" "C7" (at 76.2 77.47 0)
+    (property "Reference" "C4" (at 76.2 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 76.2 80.01 0)
@@ -1144,7 +1144,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1153,7 +1153,7 @@
   (symbol (lib_id "power:GND") (at 72.39 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c92055d-df7b-4d05-8b64-6e9df03a819b)
-    (property "Reference" "#PWR031" (at 72.39 88.9 0)
+    (property "Reference" "#PWR018" (at 72.39 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 87.63 0)
@@ -1169,7 +1169,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1178,7 +1178,7 @@
   (symbol (lib_id "Device:C") (at 60.96 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94d0b00c-f25a-4119-8ebf-8fd3080e1a9a)
-    (property "Reference" "C4" (at 64.77 135.89 0)
+    (property "Reference" "C1" (at 64.77 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (at 64.77 138.43 0)
@@ -1195,7 +1195,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "C4") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1248,7 +1248,7 @@
   (symbol (lib_id "power:GND") (at 62.23 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc2db291-b2f3-4f09-ac04-5df0d4925837)
-    (property "Reference" "#PWR027" (at 62.23 88.9 0)
+    (property "Reference" "#PWR014" (at 62.23 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 87.63 0)
@@ -1264,7 +1264,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1273,7 +1273,7 @@
   (symbol (lib_id "Device:R") (at 50.8 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd0758a0-64a9-495d-865f-662a356fbef2)
-    (property "Reference" "R11" (at 53.34 125.73 0)
+    (property "Reference" "R3" (at 53.34 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 53.34 128.27 0)
@@ -1290,7 +1290,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "R11") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1299,7 +1299,7 @@
   (symbol (lib_id "power:GND") (at 55.88 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2dfb28a-4ddb-43c0-9511-e4342c8f3524)
-    (property "Reference" "#PWR023" (at 55.88 78.74 0)
+    (property "Reference" "#PWR010" (at 55.88 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 77.47 0)
@@ -1315,7 +1315,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/bbc489db-46a3-4246-b410-83dab5c86885"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )

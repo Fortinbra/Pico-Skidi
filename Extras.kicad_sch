@@ -137,11 +137,11 @@
           (stroke (width 0.2032) (type default))
           (fill (type none))
         )
-        (pin unspecified line (at 0 0 0) (length 7.62)
+        (pin passive line (at 0 0 0) (length 7.62)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin unspecified line (at 0 -2.54 0) (length 7.62)
+        (pin passive line (at 0 -2.54 0) (length 7.62)
           (name "2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -304,7 +304,7 @@
   (symbol (lib_id "power:GND") (at 63.5 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4269da8c-3289-4aec-9f0a-5ba7dcf9794c)
-    (property "Reference" "#PWR051" (at 63.5 34.29 0)
+    (property "Reference" "#PWR037" (at 63.5 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 33.02 0)
@@ -320,7 +320,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/a918f8c6-b50a-4fb5-8fe4-4f099461944c"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -329,7 +329,7 @@
   (symbol (lib_id "power:+5V") (at 27.94 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 485a3966-216c-41e0-bd35-9f61ead1dfd4)
-    (property "Reference" "#PWR049" (at 27.94 35.56 0)
+    (property "Reference" "#PWR035" (at 27.94 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 27.94 26.67 0)
@@ -345,7 +345,7 @@
     (instances
       (project "Pico-Skidi"
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/a918f8c6-b50a-4fb5-8fe4-4f099461944c"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -373,7 +373,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/a918f8c6-b50a-4fb5-8fe4-4f099461944c"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -403,7 +403,7 @@
           (reference "J2") (unit 1)
         )
         (path "/21865b85-eb74-4d61-a31a-30858d3bc341/a918f8c6-b50a-4fb5-8fe4-4f099461944c"
-          (reference "J9") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
